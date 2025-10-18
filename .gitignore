@@ -205,3 +205,51 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =========================================
+# Custom AI Project Ignore Rules (추가)
+# =========================================
+
+# --- Model / Weight Files ---
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.onnx
+*.tflite
+
+# --- Dataset / Data Files ---
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.zip
+*.tar
+*.gz
+*.npz
+*.npy
+data/
+datasets/
+raw_data/
+processed_data/
+
+# --- Experiment / Output Files ---
+logs/
+results/
+checkpoints/
+outputs/
+runs/
+wandb/
+tensorboard/
+tb_logs/
+
+# --- Jupyter Notebook Temp ---
+.ipynb_checkpoints/
+
+# --- IDE / Misc ---
+.idea/
+.vscode/
+.DS_Store
