@@ -253,3 +253,13 @@ tb_logs/
 .idea/
 .vscode/
 .DS_Store
+
+# Ignore all dataset folders
+**/input/
+**/input/**
+*.csv
+*.xlsx
+*.zip
+*.parquet
+*.npy
+*.npz
